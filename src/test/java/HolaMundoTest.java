@@ -1,4 +1,4 @@
-import org.example.HolaMundo;
+import org.trabajo3.HolaMundo;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -1,4 +1,4 @@
-package org.example;
+package org.trabajo3;
 public class HolaMundo {
     public String saludo() {
         return "¡Hola Mundo!";
