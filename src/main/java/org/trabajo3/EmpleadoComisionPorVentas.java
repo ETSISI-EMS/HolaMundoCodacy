@@ -1,6 +1,6 @@
 package org.trabajo3;
 
-public class EmpleadoComisionPorVentas extends Object {
+public class EmpleadoComisionPorVentas {
 	public double ventasBrutas; 
 	public double tarifaComision; 
 	public String nombre;

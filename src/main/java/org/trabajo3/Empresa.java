@@ -1,7 +1,7 @@
 package org.trabajo3;
 
 
-public class Empresa extends Object{
+public class Empresa {
 
 	int id;
 	String nombre;

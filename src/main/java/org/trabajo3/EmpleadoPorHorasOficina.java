@@ -2,7 +2,7 @@ package org.trabajo3;
 
 import java.math.BigInteger;
 
-public class EmpleadoPorHorasOficina extends Object  {
+public class EmpleadoPorHorasOficina {
 
 	   public String nombre;
 	   public String apellido;

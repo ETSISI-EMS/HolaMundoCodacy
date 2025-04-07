@@ -1,7 +1,7 @@
 package org.trabajo3;
 import java.util.Vector;
 
-public class Oficina extends Object{
+public class Oficina {
 	public int id;	public String nombre;public String direccion; public int codigoPostal; public String ciudad; public Vector<EmpleadoAsalariadoOficina> empleadosAsalariados;	public Vector<EmpleadoPorHorasOficina> empleadosPorHoras; public Vector<EmpleadoComisionPorVentas> empleadosComision;
 	public Oficina(int id, String nombre, String direccion, int codigoPostal, String ciudad){this.id = id;this.nombre = nombre;this.direccion = direccion;this.codigoPostal = codigoPostal;this.ciudad = ciudad;	this.empleadosAsalariados = new Vector<EmpleadoAsalariadoOficina>(0,1);this.empleadosPorHoras = new Vector<EmpleadoPorHorasOficina>(0,1); this.empleadosComision = new Vector<EmpleadoComisionPorVentas>(0,1);}
 	//public Oficina(int id, String nombre) {

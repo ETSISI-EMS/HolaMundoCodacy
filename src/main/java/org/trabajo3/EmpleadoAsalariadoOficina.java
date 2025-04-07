@@ -4,7 +4,7 @@ import java.math.BigInteger;
 
 //Por Ley, la reducción de jornada como mínimo debe ser un octavo (1/8) y como máximo la mitad (1/2) de la jornada.
 
-public class EmpleadoAsalariadoOficina extends Object {
+public class EmpleadoAsalariadoOficina {
 	public String nombre; 
 	public String apellido;
 	public String nss;

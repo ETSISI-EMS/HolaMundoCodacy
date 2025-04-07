@@ -1,7 +1,7 @@
 package org.trabajo3;
 import java.util.Vector;
 
-public class Fabrica extends Object{
+public class Fabrica {
 
 	int id;
 	String nombre;

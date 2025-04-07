@@ -39,7 +39,7 @@ public class PruebaSistemaNomina  {
 	   
 	   
 	   EmpleadoAsalariadoOficina[] empleadosAsalariadosOficina = new EmpleadoAsalariadoOficina[3];
-	   EmpleadoPorHorasOficina[] empleadosPorHorasOficina = new EmpleadoPorHorasOficina[4];
+	   EmpleadoPorHorasOficina[] empleadosPorHorasOficina = new Empleagit doPorHorasOficina[4];
 	   EmpleadoComisionPorVentas[] empleadosComisionPorVentas = new EmpleadoComisionPorVentas[2];
 	   
 	   empleadosAsalariadosOficina[0] = new EmpleadoAsalariadoOficina("Michel", "Olwer", "25-56444444-35", 900.00, 1);
