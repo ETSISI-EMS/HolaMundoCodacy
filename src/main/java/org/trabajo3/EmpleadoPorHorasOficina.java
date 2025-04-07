@@ -59,30 +59,8 @@ public class EmpleadoPorHorasOficina {
 			   } else return false;  
 			}
 
-	public static boolean validarNss2 (String id) {
-		int provincia, secuencia, digControl, resto;
-		BigInteger dividendo;
-		//el input puede venir con guiones y sin guiones!!
-		if (id.length() == 14) { // input string lleva guiones
-			provincia = Integer.parseInt( id.substring(0, 2) ) ;
-			secuencia =   Integer.parseInt( id.substring(3,11));
-			digControl =   Integer.parseInt( id.substring(12,14));
-			dividendo = new BigInteger (id.substring(0, 2) +  id.substring(3,11));
-			resto = dividendo.remainder( new BigInteger("97")).intValue();
-			return (resto == digControl);
-		} else if (id.length() == 12) {  // entrada sin guiones
-			System.out.println(id.length());
-			provincia = Integer.parseInt( id.substring(0, 2) ) ;
-			secuencia = Integer.parseInt( id.substring(2,10));
-			digControl = Integer.parseInt( id.substring(10,12));
-			dividendo = new BigInteger (id.substring(0, 2) +  id.substring(2,10));
-			resto = dividendo.remainder( new BigInteger("97")).intValue();
-			return (resto == digControl);
-		} else return false;
-	}
 
-
-	public String getNss()  {
+	   public String getNss()  {
 		   return this.nss;
 		   } 
 	   
